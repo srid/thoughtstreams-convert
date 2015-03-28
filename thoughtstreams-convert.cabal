@@ -3,18 +3,22 @@
 
 name:                thoughtstreams-convert
 version:             0.1.0.0
-synopsis:            An utility to convert JSON export data from https://thoughtstreams.io
--- description:         
+synopsis:            ThoughtStreams.io data converter
+description:         An utility to convert JSON export data from https://thoughtstreams.io
 homepage:            https://github.com/srid/thoughtstreams-convert
 license:             BSD3
 license-file:        LICENSE
 author:              Sridhar Ratnakumar
 maintainer:          srid@srid.ca
 -- copyright:           
--- category:            
+category:            Command Line
 build-type:          Simple
 -- extra-source-files:  
 cabal-version:       >=1.10
+
+source-repository    head
+   type:     git
+   location: https://github.com/srid/thoughtstreams-convert
 
 executable thoughtstreams-convert
   main-is:             Main.hs
